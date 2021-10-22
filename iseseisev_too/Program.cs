@@ -40,31 +40,47 @@ namespace iseseisev_too
 
         static void Saal_ekraanile()
         {
-            for (int rida = 0; rida < read; rida++)
+            Console.Write("     ");
+            for (int koht = 0; koht < kohad; koht++)
             {
-                for (int koht = 0; koht < kohad; koht++)
+                if (koht.ToString().Length == 2)
                 {
-                    Console.Write(saal[rida,koht]);
+                    Console.Write(" {0}", koht + 1);
                 }
-                Console.WriteLine();
+                else
+                {
+                    Console.Write(" {0}", koht + 1);
+                }
             }
+                Console.WriteLine();
+                for (int rida = 0; rida < read; rida++)
+                {
+                    Console.Write("rida " + (rida + 1).ToString() + ":");
+                    for (int koht = 0; koht < kohad; koht++)
+                    {
+
+                    }
+                }
         }
+        static int pileti_koht;
 
         static bool Muuk()
         {            
             Console.WriteLine("rida-->");
             int pileti_rida = int.Parse(Console.ReadLine());
-            Console.WriteLine("koht-->");
-            int pileti_koht = int.Parse(Console.ReadLine());
-            if (saal[pileti_koht-1,pileti_rida-1]==0)
-            {
-                saal[pileti_rida - 1, pileti_rida - 1] = 1;
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            Console.WriteLine("Mitu piletid-->");
+            int mitu = int.Parse(Console.ReadLine());
+            int p = kohad / 2;
+                if (saal[pileti_rida - 1,p] == 0)
+                {
+                    Console.WriteLine("Koht {0} on vaba", p);
+                    return true;
+                }
+                else
+                {
+                    Console.WriteLine("Koht {0} on kinni", p);
+                    return false;
+                }
         }
 
         static void Main(string[] args)

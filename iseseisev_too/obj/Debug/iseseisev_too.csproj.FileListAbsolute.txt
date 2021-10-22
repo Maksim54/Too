@@ -1,0 +1,7 @@
+C:\Users\opilane\source\repos\iseseisev_too\iseseisev_too\bin\Debug\iseseisev_too.exe.config
+C:\Users\opilane\source\repos\iseseisev_too\iseseisev_too\bin\Debug\iseseisev_too.exe
+C:\Users\opilane\source\repos\iseseisev_too\iseseisev_too\bin\Debug\iseseisev_too.pdb
+C:\Users\opilane\source\repos\iseseisev_too\iseseisev_too\obj\Debug\iseseisev_too.csprojAssemblyReference.cache
+C:\Users\opilane\source\repos\iseseisev_too\iseseisev_too\obj\Debug\iseseisev_too.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\iseseisev_too\iseseisev_too\obj\Debug\iseseisev_too.exe
+C:\Users\opilane\source\repos\iseseisev_too\iseseisev_too\obj\Debug\iseseisev_too.pdb
